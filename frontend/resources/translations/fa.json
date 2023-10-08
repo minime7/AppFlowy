@@ -32,7 +32,8 @@
   "signIn": {
     "loginTitle": "ورود به @:appName",
     "loginButtonText": "ورود",
-    "continueAnonymousUser": "ادامه دادن به صورت کاربر مهمان",
+    "loginStartWithAnonymous": "به صورت یک کاربر ناشناس شروع کنید",
+    "continueAnonymousUser": "ادامه دادن به صورت کاربر ناشناس",
     "buttonText": "ورود",
     "forgotPassword": "رمز عبور را فراموش کرده اید؟",
     "emailHint": "ایمیل",
@@ -40,13 +41,26 @@
     "dontHaveAnAccount": "آیا حساب کاربری ندارید؟",
     "repeatPasswordEmptyError": "تکرار رمز عبور نمی‌تواند خالی باشد",
     "unmatchedPasswordError": "تکرار رمز عبور مشابه رمز عبور نیست",
-    "signInWith": "ثبت نام با:",
+    "syncPromptMessage": "ممکن است همگام سازی داده ها کمی طول بکشد. لطفا این صفحه را نبندید",
+    "or": "یا",
+    "LogInWithGoogle": "با حساب گوگل وارد شوید",
+    "LogInWithGithub": "با حساب گیت هاب وارد شوید",
+    "LogInWithDiscord": "با حساب دیسکورد وارد شوید",
+    "signInWith": "ورود با:",
     "loginAsGuestButtonText": "شروع کنید"
   },
   "workspace": {
-    "create": "ایجاد فضای کار",
-    "hint": "فضای کار",
-    "notFoundError": "فضای کاری پیدا نشد"
+    "chooseWorkspace": "فضای کاری خود را انتخاب کنید",
+    "create": "ایجاد فضای کاری",
+    "reset": "بازنشانی فضای کاری",
+    "resetWorkspacePrompt": " بازنشانی فضای کاری باعث پاک شدن تمام صفحات و داده های درون آن خواهد شد. آیا از بازنشانی فضای کاری مطمئن هستید؟ به جای آن می توانید برای بازگرداندن فضای کاری با تیم پشتیبانی تماس بگیرید",
+    "hint": "فضای کاری",
+    "notFoundError": "فضای کاری پیدا نشد",
+    "failedToLoad": "مشکلی پیش آمد! اشکال در بارگزاری فضای کاری. سعی کنید تمام صفحات باز مربوط به ما را ببندید  و سپس دوباره امتحان کنید",
+    "errorActions": {
+      "reportIssue": "گزارش مشکل",
+      "reachOut": "تماس از طریق دیسکورد"
+    }
   },
   "shareAction": {
     "buttonText": "اشتراک گذاری",
